@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" role="document">
 
 <head>
+    <meta name="white-theme">
     <meta charset="UTF-8" />
-    <title>Document</title>
+    <title>Hudlle Landing Page</title>
     <!-- Media Quary -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Render All Elements Normally -->
@@ -12,57 +13,65 @@
     <link rel="stylesheet" href="css/style.css" />
     <!-- Font Awesome Library -->
     <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon-32x32.png">
+
 </head>
 
 <body>
-    <section class="landing">
+    <section class="landing" role="article" tabindex="0">
         <div class="container">
-            <div class="header">
+            <div class="header" role="checkbox" aria-checked="true" tabindex="0">
                 <a href="#"><img src="imgs/logo.svg" alt="Logo"></a>
                 <a href="#" class="pill">Try It Free</a>
             </div>
-            <div class="mockup">
-                <div class="text">
-                    <h3>Build The Community Your Fans Will Love</h3>
-                    <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+            <div class="mockup" tabindex="0">
+                <div class="text" tabindex="0">
+                    <h3 role="text" aria-label="Build The Community Your Fans Will Love">Build The Community Your Fans
+                        Will Love</h3>
+                    <p role="text" aria-label="Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+                    Create
+                    connections with your users as you engage in genuine discussion.">Huddle re-imagines the way we
+                        build communities. You have a voice, but so does your audience.
                         Create
                         connections with your users as you engage in genuine discussion.
                     </p>
-                    <button href="#" class="main-btn pill">Get Started For Free</button>
+                    <button class="main-btn pill" role="button" aria-pressed="true">Get Started For Free</button>
                 </div>
-                <div class="img-mockups">
+                <div class="img-mockups" tabindex="0">
                     <img src="imgs/illustration-mockups.svg" alt="">
                 </div>
             </div>
         </div>
     </section>
-    <section class="features">
+    <section class="features" tabindex="0">
         <div class="container">
-            <div class="box">
-                <div class="text">
+            <div class="box" role="checkbox" aria-checked="true" tabindex="0">
+                <div class="text" tabindex="0">
                     <h3>Grow Together</h3>
                     <p>
                         Generate meaningful discussions with your audience and build a strong, loyal community.
                         Think of the insightful conversations you miss out on with a feedback form.
                     </p>
                 </div>
-                <div class="Illustrative-image">
-                    <img src="imgs/illustration-grow-together.svg" alt="" />
+                <div class="Illustrative-image" tabindex="0">
+                    <img src="imgs/illustration-grow-together.svg" alt="img about grow-together " role="img"
+                        aria-label="img about grow-together" />
                 </div>
             </div>
-            <div class="box">
-                <div class="text">
+            <div class="box" tabindex="1">
+                <div class="text" tabindex="0">
                     <h3>Flowing Conversations</h3>
                     <p>
                         You wouldn't paginate a conversation in real life, so why do it online? Our threads
                         have just-in-time loading for a more natural flow.
                     </p>
                 </div>
-                <div class="Illustrative-image">
-                    <img src="imgs/illustration-flowing-conversation.svg" alt="" />
+                <div class="Illustrative-image" tabindex="0">
+                    <img src="imgs/illustration-flowing-conversation.svg" alt="img about flowing conversation"
+                        role="img" aria-label="img flowing-conversation" />
                 </div>
             </div>
-            <div class="box">
+            <div class="box" tabindex="2">
                 <div class="text">
                     <h3>Your Users</h3>
                     <p>
@@ -71,14 +80,15 @@
                     </p>
                 </div>
                 <div class="Illustrative-image">
-                    <img src="imgs/illustration-your-users.svg" alt="" />
+                    <img src="imgs/illustration-your-users.svg" alt="img about your-users " role="img"
+                        aria-label="img about your-users" />
                 </div>
             </div>
         </div>
     </section>
     <section class="ready">
         <h2>Ready to build your community?</h2>
-        <button href="#" class="main-btn pill">Get Started For Free</button>
+        <button class="main-btn pill">Get Started For Free</button>
     </section>
     <footer>
         <div class="container">
@@ -92,50 +102,51 @@
                         fill="#FFF" />
                 </g>
             </svg>
-            <div class="About">
-                <div class="box">
+            <div class="About" role="article">
+                <div class="box" role="checkbox" aria-checked="true" tabindex="0">
                     <address>
                         <ul>
-                            <li>
+                            <li role="checkbox" aria-checked="true" tabindex="0">
                                 <i class="fa-solid fa-location-dot"></i>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua</p>
                             </li>
-                            <li>
+                            <li tabindex="0">
                                 <i class="fa-solid fa-phone-volume"></i>
                                 <p>+1-543-123-4567</p>
                             </li>
-                            <li>
+                            <li tabindex="0">
                                 <i class="fa-regular fa-envelope"></i>
                                 <p>example@huddle.com</p>
                             </li>
                         </ul>
                     </address>
                 </div>
-                <div class="box">
+                <div class="box" tabindex="0">
                     <ul>
-                        <li><a href="#">abous us</a></li>
-                        <li><a href="#">what we do</a></li>
-                        <li><a href="#">faq</a></li>
+                        <li role="checkbox" aria-checked="true" tabindex="0"><a href="#">abous us</a></li>
+                        <li tabindex="0"><a href="#">what we do</a></li>
+                        <li tabindex="0"><a href="#">faq</a></li>
                     </ul>
                 </div>
-                <div class="box">
+                <div class="box" tabindex="0">
                     <ul>
-                        <li><a href="#">career</a></li>
-                        <li><a href="#">blog</a></li>
-                        <li><a href="#">contact us</a></li>
+                        <li role="checkbox" aria-checked="true" tabindex="0"><a href="#">career</a></li>
+                        <li tabindex="0"><a href="#">blog</a></li>
+                        <li tabindex="0"><a href="#">contact us</a></li>
                     </ul>
                 </div>
-                <div class="box">
+                <div class="box" tabindex="0">
                     <div class="social">
-                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="fa-brands fa-facebook-f" role="link" tabindex="0" aria-label="facebook"></a>
+                        <a href="#" class="fa-brands fa-twitter" tabindex="0" aria-label="twitter"></a>
+                        <a href="#" class="fa-brands fa-instagram" tabindex="0" aria-label="instagram"></a>
                     </div>
                 </div>
             </div>
-            <div class="copy">&copy; Copyright 2018 Huddle. All rights reserved.</div>
+            <div class="copy" role="text" tabindex="0">&copy; Copyright 2018 Huddle. All rights reserved.</div>
         </div>
     </footer>
 </body>
+
 </html>
